@@ -51,19 +51,25 @@ body {
     padding: 10px
 }
 
-
-
-
-/*mq pantallas de tablet*/
+/* mq pantallas de tablet*/
 
 @media screen and (min-width:600px) {
     .main-index {
-        height: 85vh;
-        overflow: visible;
+        height: 75vh;
+        overflow: scroll;
     }
 
     .main-contacto {
         height: 1fr;
         overflow: auto;
+    }
+}
+
+/* mq pantallas computadora*/
+
+@media screen and (min-width: 1200px) {
+    .main-index {
+        height: 78vh;
+        overflow: hidden;
     }
 }
