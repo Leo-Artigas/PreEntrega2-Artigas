@@ -51,6 +51,37 @@ body {
     padding: 10px
 }
 
+/*estilos de agenda*/
+
+.mes-año{
+    color: aliceblue;
+}
+
+.calendario{
+    text-align: center;
+    width: 300px;
+}
+
+div ol{
+    color: aliceblue;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+
+.first-day{
+    grid-column-start: 6;
+}
+
+.week-day{
+    background-color: #959191;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
 /* mq pantallas de tablet*/
 
 @media screen and (min-width:600px) {
