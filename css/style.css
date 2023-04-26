@@ -1,107 +1,35 @@
 /* reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-
-/*estilos generales*/
-
-
+/* estilos generales*/
 .class-one {
-    text-shadow: 1px 1px rgb(0, 0, 0);
-
-}
-
+  text-shadow: 1px 1px #1d3f30; }
 
 body {
-    background-color: #403f3f;
-    background-image: url(../img/porsche-background.jpg);
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-
-}
-
-
-
-.footer-fix {
-    text-align: end;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
-}
-
-/*estilos del index*/
+  background-color: #403f3f;
+  background-image: url(../img/porsche-background.jpg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat; }
 
 .main-index {
-    height: 70vh;
-    overflow: scroll;
-    padding: 10px;
-}
+  height: 70vh;
+  overflow: scroll;
+  padding: 10px; }
 
-/*estilos de contacto*/
+.footer-fix {
+  text-align: end;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px; }
 
+/* estilos de contacto*/
 .wpp-logo {
-    text-align: end;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 10px
-}
-
-/*estilos de agenda*/
-
-.mes-año {
-    color: aliceblue;
-}
-
-.calendario {
-    text-align: center;
-    width: 300px;
-}
-
-div ol {
-    color: aliceblue;
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    padding: 0;
-}
-
-.first-day {
-    grid-column-start: 6;
-}
-
-.week-day {
-    background-color: #959191;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-
-}
-
-/* mq pantallas de tablet*/
-
-@media screen and (min-width:600px) {
-    .main-index {
-        height: 75vh;
-        overflow: scroll;
-    }
-
-    .main-contacto {
-        height: 1fr;
-        overflow: auto;
-    }
-}
-
-
-/* mq pantallas computadora*/
-
-@media screen and (min-width: 1200px) {
-    .main-index {
-        height: 78vh;
-        overflow: hidden;
-    }
-}
+  text-align: end;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px; }

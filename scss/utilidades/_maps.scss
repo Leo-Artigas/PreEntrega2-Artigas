@@ -1,0 +1,22 @@
+// mapas
+
+$bg-gral: (
+    bg-color: #403f3f,
+    bg-image: url(../img/porsche-background.jpg),
+    bg-blend-mode: overlay,
+    bg-repeat: no-repeat,
+);
+
+$main-gral: (
+    heigth-main: 70vh,
+    overflow-main: scroll,
+    padding-main: 10px, 
+);
+
+$boton-wpp: (
+    align-wpp: end,
+    position-wpp: fixed,
+    bottom-wpp:0,
+    rigth-wpp:0,
+    padding-wpp:10px,
+);
