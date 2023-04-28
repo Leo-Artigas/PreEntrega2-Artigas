@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* reset */
 * {
   margin: 0;
@@ -6,7 +7,7 @@
 
 /* estilos generales*/
 .class-one {
-  text-shadow: 1px 1px #1d3f30; }
+  text-shadow: 1px 1px #304d3e; }
 
 body {
   background-color: #403f3f;
@@ -33,3 +34,41 @@ body {
   bottom: 0;
   right: 0;
   padding: 10px; }
+
+/* estilos de agenda */
+.mes-año {
+  color: aliceblue; }
+
+.calendario {
+  text-align: center;
+  width: 400px; }
+
+div ol {
+  color: aliceblue;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0; }
+
+.first-day {
+  grid-column-start: 6; }
+
+.week-day {
+  background-color: #8d8b8b;
+  color: black;
+  font-weight: bold;
+  text-align: center; }
+
+/*mq pantallas tablet*/
+@media screen and (min-width: 600px) {
+  .main-index {
+    height: 85vh;
+    overflow: visible; }
+  .main-contacto {
+    height: 1fr;
+    overflow: auto; }
+  .productos-display {
+    height: 80vh;
+    width: 100%;
+    background-color: #de05ff;
+    overflow: scroll; } }

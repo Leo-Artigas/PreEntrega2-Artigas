@@ -1,0 +1,21 @@
+
+/*mq pantallas tablet*/
+
+@media screen and (min-width:600px){
+    .main-index{
+        height: 85vh;
+        overflow: visible;
+    }
+
+    .main-contacto{
+        height: 1fr;
+        overflow: auto;
+    }
+
+    .productos-display{
+        height: 80vh;
+        width: 100%;
+        background-color: rgb(222, 5, 255);
+        overflow:scroll;  
+    }
+}
