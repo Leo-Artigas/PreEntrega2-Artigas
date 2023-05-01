@@ -1,12 +1,17 @@
 //variables
 
 @import "../utilidades/variables";
+@import "../utilidades/mixin";
 @import "../utilidades/maps";
+@import "../utilidades/extend";
 
 /* estilos generales*/
 
-.class-one{
-    text-shadow:$sh1 $sh2 $sh-color;
+.main-index{
+    @include main-gral (70vh, scroll, 10px);
+    .class-one{
+        text-shadow:$sh1 $sh2 $sh-color;
+    }
 }
 
 body{
@@ -16,18 +21,14 @@ body{
     background-repeat: map-get($bg-gral, bg-repeat );
 }
 
-.main-index{
-    height: map-get($main-gral, heigth-main);
-    overflow: map-get($main-gral, overflow-main);
-    padding: map-get($main-gral, padding-main);
+.footer-fix {
+    @extend %fix
 }
 
-.footer-fix {
-    text-align: end;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
+.main-contacto{
+    .wpp-logo{
+            @extend %fix
+        }
 }
 
 
